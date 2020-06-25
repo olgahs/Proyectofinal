@@ -10,6 +10,7 @@ En total se crean dos carpetas:
 -"results": carpeta en la cual se almacenan los resultados del blastp. Además, encontramos otras dos carpetas, "mucle" y "prosite", para almacenar los resultados de puscle.py y dominios.py respectivamente.
 
 REQUISITOS
+
 -Los argumentos introducidos deben ser 3 (en cuyo caso el coverage y la identity serán predefinidos) o 5 (el usuario elige los valores de identity y coverage)
 -El archivo prosite.dat usado en el script dominios.py se debe encontrar en la ruta desde la cual se esté ejecutando el programa
 -El usuario debe tener instalado muscle para poder realizar el alineamiento y el árbol filogenético
