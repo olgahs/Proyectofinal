@@ -1,4 +1,5 @@
 MAIN.PY
+
 Este script de python permite la ejecución de otros tres scrips: "blast.py", "muscle.py" y "dominios.py"
 
 -blast.py: permite comparar uno o varios querys de proteínas convirtiéndolo en único archivo fasta gracias a la creación de una base de datos a partir de los genbanks introducidos por el usuario.
@@ -16,6 +17,7 @@ REQUISITOS
 -El usuario debe tener instalado muscle para poder realizar el alineamiento y el árbol filogenético
 
 USO
+
 python3 main.py [query] [subject] [cov] [identity]
 1. query: ruta del archivo en formato fasta que contiene una o varias secuencias de proteínas. Si se quieren analizar varias secuencias estas deben encontrarse en el mismo archivo.
 2. subject: ruta a la carpeta llamada genbank en la cual hay uno o varios genbanks
